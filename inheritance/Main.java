@@ -16,6 +16,10 @@ public class Main {
 
 
 
+// what we can access is determined by reference(SuperClass) i.e. Box not the object i.e oops.inheritance.BoxWeight
+        Box box4 = new BoxWeight(1, 2, 3, 4);
+//        System.out.println(box4.weight);
+
 
     }
 
