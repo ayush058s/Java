@@ -1,6 +1,7 @@
 package oops.inheritance;
 
 
+import oops.inheritance.BoxWeight;
 
 // every class inherits object class
 public class Main {
@@ -14,6 +15,9 @@ public class Main {
         Box box3 = new Box(box1);
         System.out.println(box3.l + box3.h +  box3.w); // -3
 
+        // oops.inheritance.BoxWeight inherits th variables of Box
+        BoxWeight weight1 = new BoxWeight();
+        System.out.println(weight1.l + " " + weight1.weight);
 
 
 // what we can access is determined by reference(SuperClass) i.e. Box not the object i.e oops.inheritance.BoxWeight
