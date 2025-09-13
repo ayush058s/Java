@@ -1,6 +1,5 @@
 package oops.interfaces;
 
-import oops.polyMorphism.Media;
 
 public class CDPlayer implements Media {
     @Override
