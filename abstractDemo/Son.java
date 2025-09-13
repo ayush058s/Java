@@ -2,7 +2,9 @@ package oops.abstractDemo;
 
 public class Son extends Parent {
 
-
+    public Son(int age) {
+        super(age);
+    }
 
     // all abstract method should be implemented in its subclass
     @Override
