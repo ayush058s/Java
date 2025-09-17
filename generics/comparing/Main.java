@@ -20,7 +20,7 @@ public class Main {
             }
         });
 
-
+        Arrays.sort(arr, ((o1, o2) -> -(int)(o1.score - o2.score)));
 
         System.out.println(Arrays.toString(arr));
 
